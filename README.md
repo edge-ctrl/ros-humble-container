@@ -1,7 +1,7 @@
 
 # ros-humble-container
 
-A tool for managing Docker containers using the `osrf/ros:humble-desktop-full-jammy` image (linux/amd64)  from Open Robotics. This utility has been tested on Linux and simplifies the creation and management of a ROS 2 Humble container with full graphical and serial port support.
+A tool for managing Docker containers using the `osrf/ros:humble-desktop-full-jammy` image (linux/amd64)  from   [Open Robotics ](https://github.com/osrf/docker_images). This utility has been tested on Linux and simplifies the creation and management of a ROS 2 Humble container with full graphical and serial port support.
 
 ## Features
 
@@ -28,12 +28,10 @@ Run the script `ros-humble-container.sh` with the following commands:
 
 ## Setup and Requirements
 
-- **Prerequisites**: This tool has only been tested on Linux. Ensure Docker is installed and running.
+- **Prerequisites**: Ensure Docker is installed and running.
 - **Running the Script**: Execute `ros-humble-container.sh` in your terminal to manage the container.
 - **Simplify Usage**: Use an alias to simplify the usage of the tool. For example, you can add the following line to your `~/.bashrc` or `~/.zshrc`:
-
 `alias ros-humble="~/path/to/ros-humble-container.sh" `
-
 Replace `~/path/to/ros-humble-container.sh` with the actual path to the script on your system. After adding the alias, run: `source ~/.bashrc ` or: `source ~/.zshrc ` to apply the changes. Now, you can use the tool from anywhere in your terminal by typing: `ros-humble [command] `
 
 
