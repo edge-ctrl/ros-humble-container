@@ -1,0 +1,8 @@
+# Colorful and customized terminal.
+if [ -f /.dockerenv ]; then
+    export PS1="\[\e[36m\]ros2user: \w \$ \[\e[0m\]"
+fi
+# Ros environment variables.
+source /opt/ros/humble/setup.bash
+
+###-- Here start the system commands --###

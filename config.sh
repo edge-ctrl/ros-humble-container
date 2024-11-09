@@ -1,0 +1,9 @@
+# Variables
+USER_CONTAINER="ros2user"
+IMAGE_NAME="ros-humble:user"
+CONTAINER_NAME="ros-humble"
+CONTAINER_FOLDER_USER="/home/${USER}/ROS2-Container"
+CONTAINER_FOLDER_BACKUP_USER="/home/${USER}/ROS2-Backup-Container"
+BACKUP_FILE_CONTAINER="${CONTAINER_FOLDER_BACKUP_USER}/backup-ros-container.tar"
+CONTAINER_BACKUP_NAME="ros-humble-backup"
+BACKUP_FILE_DATA="${CONTAINER_FOLDER_BACKUP_USER}/backup"
